@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Winmine</class>
+ <widget class="QMainWindow" name="Winmine">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menulevel">
+    <property name="title">
+     <string>level</string>
+    </property>
+    <addaction name="Easy"/>
+    <addaction name="Middle"/>
+    <addaction name="Hard"/>
+    <addaction name="Customize"/>
+   </widget>
+   <widget class="QMenu" name="menuinformation">
+    <property name="title">
+     <string>information</string>
+    </property>
+    <addaction name="listinfo"/>
+   </widget>
+   <addaction name="menulevel"/>
+   <addaction name="menuinformation"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="Easy">
+   <property name="text">
+    <string>easy</string>
+   </property>
+  </action>
+  <action name="Middle">
+   <property name="text">
+    <string>middle</string>
+   </property>
+  </action>
+  <action name="Hard">
+   <property name="text">
+    <string>hard</string>
+   </property>
+  </action>
+  <action name="Customize">
+   <property name="text">
+    <string>zdy</string>
+   </property>
+  </action>
+  <action name="listinfo">
+   <property name="text">
+    <string>rankinfo</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
